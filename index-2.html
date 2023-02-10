@@ -23,6 +23,7 @@
         flex-direction: column;
         margin-top: 20px;
     }
+    
 </style>
     
 </head>
@@ -86,7 +87,7 @@
         <div class="header-carousel" id="header-carousel">
             <div class="header-area header-bg">
                 <div class="container">
-                    <div class="row">
+                    <div class="row newrow">
                         <div class="col-lg-7">
                             <div class="header-inner">
                                 <h1 class="title ">This starter kit is all you need to start the revolution</h1>
@@ -94,6 +95,26 @@
                                 <div class="btn-wrapper ">
                                     <a href="#" class="boxed-btn btn-rounded" >Shop Now</a>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5" >
+                            <div class="purchasebox" style="display: flex; flex-direction: column;">
+                                <h3>Price: €10.99</h3>
+                               <div style="display: flex; flex-direction: row;"> <h3>Quantity: </h3> <textarea></textarea></div>
+                               <section id="buyBlock">
+                                <span id="priceATC" class="quantity-up-down">
+                                <label>Qty</label>
+                                <span class="icon-minus-squared off">&ndash;</span>
+                                <input name="Quantity" type="number" value="3" id="Quantity" class="qty-field" min="3" max="12">
+                                <span class="icon-plus-squared">+</span>
+                                </span>
+                                </section>
+                               <div class="btn-wrapper ">
+                                <a href="#" class="boxed-btn btn-rounded" >Buy Now</a>
+                            </div>
+                            <div class="btn-wrapper ">
+                                <a href="#" class="boxed-btn btn-rounded" >Add to Cart</a>
+                            </div>
                             </div>
                         </div>
                     </div>
